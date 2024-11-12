@@ -1,0 +1,171 @@
+/* GERAL */
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* TOPO */
+header{
+    background-color: #3B8686;
+    padding: 30px 15vw  30px 15vw;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 0 0 15px;
+}
+header nav ul li:last-child {
+    margin-right: 0;
+}
+header nav .atual{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+header nav .atual:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+/* BANNER */
+section.banner {
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)),  url(../src/backgound1.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    padding: 20vw 10vw  6vw 15vw;
+}
+section.banner h2{
+    color: white;
+    font-size: 3.5rem;
+    width: 50%;
+    background-color: rgba(59, 134, 134, 0.5);
+}
+/* DIFERENCIAIS */
+section.diferenciais {
+    text-align: center;
+}
+section.diferenciais div.maior{
+    display: flex;
+    margin: 5vw 12vw 5vw 12vw;
+}
+section.diferenciais div.maior div{
+    margin-right: 12vw;
+}
+section.diferenciais div.maior div.ultimo{
+    margin-right: 0;
+}
+section.diferenciais div.maior span{
+    color: #3B8686;
+    font-size: 5rem;
+}
+section.diferenciais div.maior h3{
+    font-size: 1.5rem;
+    margin: 1vw;
+}
+section.diferenciais div.maior p{
+    color: #747474;
+}
+section.diferenciais div.maior button{
+    margin: 1vw 0 0 0;
+    border: none;
+    background-color: #3B8686;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* NUMEROS */
+section.numeros {
+    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), url(../src/background2.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto, 100% auto;
+}
+section.numeros div.maior{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2vw 0 2vw 0;
+}
+section.numeros div.maior div{
+    margin-right: 15vw;
+}
+section.numeros div.maior div.ultimo{
+    margin-right: 0;
+}
+section.numeros div.maior span{
+    color: white;
+    font-size: 5rem;
+}
+section.numeros div.maior p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+/* POSSIBILIDADES */
+section.possibilidades div.maior{
+    display: flex;
+    justify-content: center;
+    margin: 8vw 15vw 8vw 15vw;
+}
+section.possibilidades div.maior h3{
+    font-size: 2rem;
+    color: #0B486B;
+    margin-bottom: 1vw;
+}
+section.possibilidades div.maior p{
+    color: #747474;
+}
+section.possibilidades div.maior button{
+    margin: 1vw 0 0 0;
+    border: none;
+    background-color: #0B486B;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+section.possibilidades div.maior img{
+    margin-left: 10vw;
+}
+/* FOOTER */
+footer{
+    background-color: #3B8686;
+    color: white;
+    padding: 3vw 0 1vw 0;
+}
+footer div.maior{
+    display: flex;
+    justify-content: center;
+}
+footer div.maior div {
+    margin-right: 20vw;
+}
+footer div.maior div.ultimo{
+    margin-right: 0;
+}
+footer div.maior div.primeira ul{
+    display: flex;
+}
+footer div.maior div.primeira ul li{
+    margin-right: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+footer div.maior div.primeira ul li span{
+    font-size: 1.5rem;
+}
+footer div.maior div.segunda p span{
+    font-weight: bold;
+}
+footer div.maior div.segunda ul li{
+    margin-top: 0.2vw;
+}
+footer div.maior div.ultimo ul li{
+    margin-bottom: 1vw;
+}
